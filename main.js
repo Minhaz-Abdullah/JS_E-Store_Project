@@ -24,8 +24,8 @@ function refreshProducts() {
         console.log(name);
 
         prodList.innerHTML +=   '<li class="list-inline-item" style="padding: 10px">' +
-                                '<div align="center" class="container-fluid bg-light" style="padding-top: 10px; padding-bottom: 2.5px">' +
-                                '<div class="container-fluid bg-white" style="padding-top: 10px">' +
+                                '<div align="center" class="cust_li" style="padding-top: 10px; outline-style: solid; outline-width: 1px;>' +
+                                '<div class="container-fluid bg-white" style="padding: 10px">' +
                                 '<img  style="vertical-align: center;" src="' + image +'" alt="" width="300" height="200">' +
                                 '<h1>' + name + '</h1>' +
                                 '<p class="cust_link"' + buttonText + '</p>' +

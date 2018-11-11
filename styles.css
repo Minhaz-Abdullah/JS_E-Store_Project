@@ -28,3 +28,22 @@
     text-underline-mode: 0;
     cursor: pointer;
 }
+
+.cust_li{
+    padding: 10px;
+    transition-duration: 300ms;
+}
+
+.cust_li:hover{
+    cursor: pointer;
+}
+
+.color-overlay{
+
+}
+
+.color-overlay:hover{
+    background: #cbcbcb;
+    opacity: .6;
+    position: absolute;
+}
